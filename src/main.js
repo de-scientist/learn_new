@@ -22,3 +22,11 @@ const birthYear = 2002;
 
 console.log(`My name is ${firstName} ${lastName}.
    I am ${2025- birthYear} years old`);
+
+
+// default parameters
+function greet(username = "Guest") {
+  console.log(`Hello ${username}`);
+  
+}
+greet("Mark")
