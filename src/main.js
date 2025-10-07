@@ -69,7 +69,7 @@ let [num1, num2, num3] = numbers;
 console.log(num1, num2, num3);
 
 
-//use a function for
+//use a function for destructuring
 function myNumbers() {
   return [1, 2, 3, 4, 5];
 }
