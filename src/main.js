@@ -63,7 +63,7 @@ console.log(...number);
 
 
 
-//destructuring
+//destructuring arrays
 const numbers = [1, 2, 3, 4, 5];
 let [num1, num2, num3] = numbers;
 console.log(num1, num2, num3);
@@ -76,3 +76,12 @@ function myNumbers() {
 let [num1, num2, num3] = myNumbers();
 console.log(num1, num2, num3);
 
+//destructuring objects
+const person = {
+  firstName: "Mark",
+  lastName: "Kinyanjui",
+  email: "gitaumark502@gmail.com"
+}
+
+const {firstName, lastName, email} = person;
+console.log();
