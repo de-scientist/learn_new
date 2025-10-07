@@ -45,4 +45,34 @@ console.log(...number);
 //2. copying arrays
 
 
-//merging arrays
+//3. merging arrays
+
+
+//4. copy objects
+
+
+//5. merge objects
+
+
+
+//6. overwrite properties
+
+
+//Rest operator
+//collect items into one array
+
+
+
+//destructuring
+const numbers = [1, 2, 3, 4, 5];
+let [num1, num2, num3] = numbers;
+console.log(num1, num2, num3);
+
+
+//use a function for
+function myNumbers() {
+  return [1, 2, 3, 4, 5];
+}
+let [num1, num2, num3] = myNumbers();
+console.log(num1, num2, num3);
+
