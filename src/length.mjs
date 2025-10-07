@@ -1,3 +1,3 @@
 function findLength(str) {
-    return str.length
+    return str.length;
 }

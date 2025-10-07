@@ -1,5 +1,6 @@
 //import modules
 import {add, sub} from '.math.mjs'
+import findLength, {} from './length.mjs'
 
 //arrow function
 const add = (a, b) =>  console.log(a + b);
