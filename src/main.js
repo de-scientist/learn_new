@@ -14,3 +14,11 @@ const user = {
   password: "sqerjkhmtdi6dt",
   email: "gitaumark502@gmail.com"
 }
+
+//Template literals
+const firstName = "Mark";
+const lastName = "Kinyanjui";
+const birthYear = 2002;
+
+console.log(`My name is ${firstName} ${lastName}.
+   I am ${2025- birthYear} years old`);
