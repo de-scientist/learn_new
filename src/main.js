@@ -84,4 +84,18 @@ const person = {
 }
 
 const {firstName, lastName, email} = person;
-console.log();
+console.log(person);
+
+//use object literal enhancements
+const person = {
+  firstName: "Mark",
+  lastName: "Kinyanjui",
+  email: "gitaumark502@gmail.com"
+}
+
+const person = {
+  firstName,
+  lastName,
+  email: "gitaumark502@gmail.com"
+  sayHell
+}
