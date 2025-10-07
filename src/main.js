@@ -1,3 +1,6 @@
+//import modules
+import {add, sub} from '.math.mjs'
+
 //arrow function
 const add = (a, b) =>  console.log(a + b);
 
