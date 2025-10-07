@@ -30,3 +30,16 @@ function greet(username = "Guest") {
   
 }
 greet("Mark")
+
+function add(a=0, b=0){
+  console.log(a+b);
+  
+}
+add()
+
+//spread operator
+//1. expanding an array
+const number = [1, 2, 3, 4, 5]
+console.log(...number);
+
+//2. copying arrays
